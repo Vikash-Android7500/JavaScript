@@ -1,5 +1,4 @@
-// Alert command
-// alert("hello JavaScript");
+/* JS basic Program. */
 
 // Network requst our background runnig.
 console.log('Namaste Love Babber sir');
@@ -18,7 +17,6 @@ let count = Number_1 + Number_2;
 console.log(count + " All Count");
 
 // float 
-
 let item_0 = 10.0;
 let item_1 = 4.5;
 let pack = item_0 - item_1;
@@ -42,20 +40,17 @@ let add = F_Name + L_Name;
 console.log("Your Name: " + add);
 
 // null
-
 let N = null;
 let M = " kushwaha";
 let data = N + M;
 console.log("your data " + data);
 
 //Dynamic Typing
-
 let Number_0 = 20;
 Number_0 = "vikash";
 console.log(Number_0);
 
 // Ternary Operator.
-
 let age = 20;
 let status = (age >= 25) ? "Yes Vote" : "No Vote";
 console.log("Your Resulat: " + status);
@@ -92,7 +87,7 @@ if (book_1 < book_2 != book_1 > book_2) {
 else{
      console.log("invalide !");
 }
-// -----------------End Logical Operator---------
+
 
 
 /* Bitwise Operator
@@ -162,6 +157,7 @@ for (let A = 0; A < 5; A = A + 1){
      console.log("_______________");
 } 
 
+
 // 5 in Table for loop
 console.log("\n -----Five in Table------- \n")
 let table = 5;
@@ -182,6 +178,7 @@ while (Torex <= 5) {
      Torex++;
 }
 
+
 // do while loop
 console.log("\n ----Do While loop-------------- \n");
 let syrup = 0;
@@ -192,3 +189,4 @@ do{
      syrup++;
 }
 while(syrup < 5);
+
