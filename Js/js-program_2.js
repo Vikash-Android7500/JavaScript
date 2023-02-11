@@ -71,7 +71,7 @@ for(let key in src){
   dest[key] = src[key];
 }
 console.log(dest);
-// Difference /!No Farak dest object
+// Difference /!कोई फर्क नहीं dest Object
 src++;
 console.log(dest);
 
