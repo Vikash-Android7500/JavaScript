@@ -1,0 +1,58 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+
+
+.weapper{
+     width: 100wv;
+     height: 100vh;
+    
+}
+
+.contaoner{
+     margin-left: 40px;
+}
+
+
+
+.hi{
+     height: 1cqmin;
+     background-color: lightblue;
+
+}
+
+.btn{
+     display: flex;
+     gap: 40px;
+     margin-top: 6%;
+}
+
+button{
+     border: none;
+     padding: 20px;
+     background-color: lightgreen;
+     border-radius: 4px;
+
+}
+
+button:first-child{
+     margin-left: 10px;
+}
+
+button:hover{
+     opacity: 0.7;
+}
+
+.text{
+     margin-top: 4%;
+    margin-left: 20px;
+}
+
+
+
+
+.item-list{
+     margin-top: 4%;
+}
