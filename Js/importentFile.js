@@ -67,7 +67,7 @@ var promise = new Promise( (resolve, reject) => {
    } else {
        reject();
    }
-});
+}, 3000);
       
 promise.
     then( () => {
