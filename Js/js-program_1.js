@@ -190,3 +190,16 @@ do{
 }
 while(syrup < 5);
 
+
+
+
+const x = 5;
+const y = 6;
+console.log(`The sum of xanda{y} is ${x + y}.`);
+
+
+let X = 0;
+for (let index = 0; index < 5; index++) {
+    X +=index;
+}
+console.log(X);
