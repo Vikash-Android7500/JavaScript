@@ -2,7 +2,7 @@
 let arr = [1,2,3,5,6];
 
 function abrege (a, b, c) {
-     return a+b+c/3;
+    return a+b+c/3;
 }
 let sum = abrege(...arr)
 console.log(sum);
@@ -123,5 +123,3 @@ if (number1 === number2) {
 else{
      console.log('I am false: "1"');
 }
-
-

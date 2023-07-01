@@ -175,7 +175,7 @@ console.log(numbers10);
 
 // reverse() function.
 let numbers11 = [5,10,4,40];
-numbers10.reverse();
+numbers11.reverse();
 console.log(numbers11);
 
 

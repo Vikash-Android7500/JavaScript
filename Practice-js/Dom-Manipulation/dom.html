@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dom Manipulation</title>
+     <link rel="stylesheet" href="style.css">
+
+     <style>
+
+
+          .newdiv {
+               border: solid black 1px;
+               background-color: tomato;
+          }
+          .newdiv.active {
+               background-color: orange;
+               font-size: larger;
+          }
+
+          .para {
+               position: absolute;
+               left: 25%;
+               margin-top: 32px;
+               width: 50%;
+               height: 200px;
+               border: solid 1px;
+               overflow-y: scroll;
+               text-align: left;
+               padding-left: 8px;
+          }
+
+          #box1 .active{
+               background-color: orange;
+          }
+
+          #box2 .active {
+               font-weight: bold;
+          }
+     </style>
+</head>
+<body style="text-align: center;">
+          <Button onclick="changeButtonText()">
+               Click Me!
+          </Button>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <button class="newdiv" id="mouse" onclick="addClassOnMouseOver()">MouseOver</button>
+
+
+          <div class="para" id="scroller" onclick="removeClassOnScroll()">
+               <p>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque natus quasi animi blanditiis magni eos voluptatem eveniet ipsa harum. Dicta blanditiis corporis est tenetur quos veritatis voluptatem ad, autem impedit!
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae facilis, assumenda possimus eligendi quam aliquid accusamus, nostrum quibusdam nisi ducimus, maiores repellat blanditiis perferendis vero optio esse vel 
+                     placeat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis fugiat, eum possimus tempora ipsum fuga error illo ratione laboriosam aliquam, sunt ea, impedit delectus dolorem laudantium eveniet eaque sapiente consequatur?
+
+                     <button id="box1">btn 1</button>
+                     <br>
+                     <br>
+                     <button id="box2">btn 2</button>
+               </p>
+          </div>
+     <!-- link js files -->
+     <!-- <script src="./ChangeButtonText.js"></script> -->
+     <!-- <script src="./addClassOnMouseOver.js"></script> -->
+     <script src="./removeClassOnScroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>DSA JS</title>
+
+     <style>
+          .box-input {
+               display: flex;
+               align-items: center;
+               gap: 20px;
+          }
+
+          input {
+               padding: 0.5rem;
+               border: none;
+               outline-style: groove;
+          }
+
+          button {
+               padding: 0.5rem;
+               border: none;
+               border-radius: 4px;
+               background-color: lightgreen;
+               box-shadow: 0px 0px 5px green;
+               font-size: large;
+          }
+
+          button:hover {
+               opacity: 0.8;
+          }
+          button:active {
+               background-color: green;
+               color: aliceblue;
+          }
+
+
+     </style>
+</head>
+<body>
+
+     <!-- Array Traversing -->
+      <!-- <div class="box-input">
+          <label>Type Your Number
+          <input type="number" id="element"/>
+          </label>
+          <button onclick="Actionfeacher()"> Action Element</button> 
+      </div> -->
+
+      <!-- Insert Elements in Array -->
+        <div class="box-input">
+          <input type="number" id="position" placeholder="Posiotion"/>
+          <input type="number" id="newelement" placeholder="New Element"/>
+          <button onclick="InsertElement()"> Insert Element</button> 
+       </div>
+
+
+
+
+     <!-- <script src="./ArrayTraversing.js"></script> -->
+     <script src="./InsertElement.js"></script>
+</body>
+</html>
