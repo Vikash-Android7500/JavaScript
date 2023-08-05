@@ -17,7 +17,7 @@ for (let i = arr.length-1; i >= 0; i--) {
 console.log(arr);
 */
 
-function InsertElement() {
+const InsertElement = () => {
      const arr = [60, 30, 10, 67, 40];
      const position = document.getElementById("position").value;
      const newElement = document.getElementById("newelement").value;
